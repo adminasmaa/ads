@@ -1,0 +1,178 @@
+body {
+    background: #590d0c;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+
+
+
+/***hedar***/
+.hedar {
+    position: relative;
+    text-align: center;
+}
+
+.hedar img {
+    width: 30%;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 5px solid #da7e23;
+    padding: 20px;
+
+}
+
+
+
+.email-signature {
+    text-align: center;
+    padding: 50px 20px 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.email-signature:before {
+    content: '';
+    height: 208px;
+    width: 100%;
+    background-color: #da7e23;
+    border-radius: 0 0 500px 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+
+
+
+
+.iconss {
+    margin-bottom: 100px;
+}
+
+.iconss a {
+    margin-bottom: 10px;
+}
+
+
+
+.iconss btn-group-lg > .btn,
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 30px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    width: 100%;
+}
+
+
+.iconin1 {
+    text-align: center;
+    background-image: linear-gradient(155deg, #4C57A2 8%, #87439A 50%, #e02870 85%);
+    position: relative;
+    border-color: #87439A;
+
+}
+
+.iconin1:hover {
+    text-align: center;
+    background-image: linear-gradient(155deg, rgba(76, 87, 162, 0.88) 8%, #87439A 50%, rgba(224, 40, 112, 0.82) 85%);
+    position: relative;
+    border-color: #87439A;
+
+}
+
+
+
+
+.btn{
+    color: #000;
+    background: linear-gradient(135deg, #da7e24 0%, #da7e24 22%, #670f0e 22%, #da7e24 28%, #da7e24 28%, #670f0e 72%, #670f0e 72%, #da7e24 100%);
+    background-size: 200% 100%;
+    background-position: 0 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 13px 20px 12px;
+    border-radius: 32px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    transition: all 0.6s ease 0s;
+}
+.btn:hover{ 
+    color: #fff; 
+    background-position: 100% 0;
+}
+.btn:before{ 
+    content:"";
+    background-color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    transition: all 0.5s;
+    z-index: -1;
+}
+ .btn:hover:before{ opacity: 0; }
+@media only screen and (max-width: 767px){
+    .iconin .btn{ margin-bottom: 30px; }
+}
+
+
+/***hedar***/
+
+.Contact {
+    margin: 20px 0;
+}
+
+
+/***copyright***/
+.copyright {
+    background: #da7e23;
+    margin-top: 30px;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.copyright p {
+    padding: 10px 0 0 0;
+    color: #fff;
+}
+
+/***copyright***/
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media (max-width: 1700px) {}
+
+@media (max-width: 1000px) {}
+
+@media (max-width: 770px) {}
+
+@media (max-width: 670px) {
+    .hedar img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+
+}
+
+/*********************************************************/
